@@ -1,0 +1,240 @@
+body {
+  font-family: Times Roman, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  overflow: hidden;
+  font-size: 30px;
+  margin-left: 0px;
+}
+header a {
+  loat: left;
+  color: #ECF2FF;
+  text-align: center;
+  padding: 4px 150px;
+  text-decoration: none;
+  font-size: 17px;
+}
+header a:hover {
+  background-color: #ECF2FF;
+  color: #333;
+}
+.banner {
+  background-image: url("impressionniste.jpeg");
+  color: white;
+  padding: 15px;
+  background-position: center;
+}
+.container {
+    width: 1450px;
+    margin: 0 auto;
+}
+@media (max-width: 960px) {
+ .container {
+  width: 800px;
+  }
+}
+@media (max-width: 720px) {
+ .container {
+  width: 700px;
+ }
+}
+@media (max-width: 540px) {
+ .container {
+  width: 600px;
+ }
+}
+nav {
+  background-color: #ECF2FF;
+  color: #333;
+  margin-right: 1220px;
+  padding: 20px;
+}
+nav a {
+  float: left;
+  color: #ECF2FF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+nav a:hover {
+  background-color: #ECF2FF;
+  color: #333;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+article {
+  background-color: #f2f2f2;
+  margin: 20px;
+  padding: 30px;
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+article h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+article p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+article img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.produit {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 5px #999;
+  text-align: center;
+}
+
+.produit img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.produit h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.produit p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.produit button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+#about {
+  background-color: #333;
+  padding: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+}
+#contact {
+  background-color: #333;
+  padding: 50px;
+  margin: 10px;
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: center;
+}
+form {
+  display: inline-block;
+  text-align: left;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+}
+input[type="submit"] {
+  background-color: whitesmoke;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+input[type="submit"]:hover {
+  background-color: darkblue;
+  color: white;
+}
+.card-white {
+    background-color: #f5f5f5;
+    padding: 40px; 
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); 
+    border-radius: 5px;
+    margin: 20px 0px; 
+    margin-left: 280px;
+    margin-right: 280px;
+    text-align: center; 
+}
+.img-circle {
+    border-radius: 50%;
+}
+h5 {
+  font-size: 20px;
+}
+.list-inline {
+  list-style: none;
+  font-size: 50px;
+  padding-left: 0px;
+  text-align: center;
+}
+#wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+      
+#content {
+  flex-basis: 60%;
+  margin-bottom: 20px;
+}
+      
+#image {
+  flex-basis: 30%;
+  text-align: center;
+}
+.list-inline i {
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.list-inline i:hover {
+    background-color: darkblue;
+    color: whitesmoke;
+}
